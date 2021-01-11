@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Responsive Web Design</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header id="spy">
+        <a href="#" class="logo">PCB<span>.Ku</span></a>
+        <div class="menuToggle" onclick="toggleMenu();"></div>
+        <ul class="navigation">
+            <li><a href="#banner" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#menu" onclick="toggleMenu();">Menu</a></li>
+            <li><a href="#expert" onclick="toggleMenu();">Expert</a></li>
+            <li><a href="#testimonials" onclick="toggleMenu();">Testimonials</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        </ul>
+    </header>
+    <div class="content" data-bs-spy="scroll" data-bs-target="#spy">
+        <section class="banner" id="banner">
+            <div class="content">
+                <h2 class="typing">Always Choose Good</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa doloribus molestias sequi nam deserunt
+                    suscipit perspiciatis? Earum hic facilis nostrum?</p>
+                <a href="#" class="btn">Our Menu</a>
+            </div>
+        </section>
+        <section class="about" id="about">
+            <div class="row">
+                <div class="col50">
+                    <h2 class="titleText"><span>A</span>bout Us</h2>
+                    <p class="paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium ratione
+                        dolorem iusto. Recusandae dolore nam eaque nobis molestiae, provident at possimus similique
+                        illum, laboriosam quia repellat necessitatibus assumenda unde ex fugiat architecto alias tempore
+                        doloremque eius modi omnis earum nostrum! Voluptatibus aliquid sit, dolore nemo tempora iure
+                        deleniti. Corporis atque optio voluptatum odit facilis, doloribus ea tempore sed consectetur.
+                        Similique, earum aperiam quasi quod cum omnis doloremque quisquam sint aliquid. Voluptatem at,
+                        ab iste placeat sequi incidunt molestiae, excepturi veniam est ipsa corporis quis tempore eos
+                        modi assumenda? Eaque, debitis! Similique optio repellat aut doloremque tempore recusandae
+                        minus. Vero autem excepturi fugiat sit! Porro quisquam accusamus et ut, ipsam, sunt corporis cum
+                        est provident ducimus esse magnam magni facere inventore iste quo iusto officiis aut, <br> <br>
+                        dicta exercitationem ipsum eum. Reprehenderit consequatur maxime nesciunt non unde dicta rem quo
+                        voluptate modi quidem exercitationem, accusamus velit sed excepturi distinctio vero consectetur
+                        qui magnam. Dolorum aperiam distinctio quas expedita reiciendis sunt quibusdam quis, tenetur
+                        accusantium omnis, soluta ducimus enim veniam consectetur nihil optio ea libero modi aspernatur
+                        eaque ullam excepturi iure odit quam. Suscipit repellendus vitae totam, est quia pariatur illo
+                        similique cumque magnam placeat perspiciatis quos amet earum debitis dolore atque molestiae.</p>
+                </div>
+                <div class="col50">
+                    <div class="imgBx">
+                        <img src="img/img1.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="menu" id="menu">
+            <div class="title">
+                <h2 class="titleText">Our<span>M</span>enu</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam optio magni corporis natus!
+                    Repellat, beatae? Laudantium doloremque, placeat cumque saepe nostrum eligendi eos asperiores magni
+                    tenetur, itaque natus ratione architecto?</p>
+            </div>
+            <div class="content">
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="img/menu1.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>Special Salads</h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="img/menu2.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>Special Soup</h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="img/menu3.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>Special Pasta</h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="img/menu4.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>Special Pasta</h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="img/menu5.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>Special Salada</h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="img/menu6.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>Special Pasta</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="title">
+                <a href="#" class="btn">View All</a>
+            </div>
+        </section>
+
+        <section class="expert" id="expert">
+            <div class="title">
+                <h2 class="titleText">Our Kitchen<span>E</span>xpert</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem, reiciendis alias?</p>
+            </div>
+            <div class="content">
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="img/expert1.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>Someone Famous</h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="img/expert2.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>Someone Famous</h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="img/expert3.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>Someone Famous</h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="img/expert4.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>Someone Famous</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials" id="testimonials">
+            <div class="title white">
+                <h2 class="titleText">They<span>S</span>aid About Us</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem, reiciendis alias?</p>
+            </div>
+            <div class="content">
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="img/testi1.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil unde totam aut obcaecati a,
+                            cumque corporis pariatur quos neque similique.</p>
+                        <h3>Someone Famous</h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="img/testi2.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil unde totam aut obcaecati a,
+                            cumque corporis pariatur quos neque similique.</p>
+                        <h3>Someone Famous</h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imgBx">
+                        <img src="img/testi3.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil unde totam aut obcaecati a,
+                            cumque corporis pariatur quos neque similique.</p>
+                        <h3>Someone Famous</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="title">
+                <h2 class="titleText"><span>C</span>ontact Us</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore, ad.</p>
+            </div>
+            <div class="contactForm">
+                <h3>Send Message</h3>
+                <div class="inputBox">
+                    <input type="text" placeholder="Name">
+                </div>
+                <div class="inputBox">
+                    <input type="text" placeholder="Email">
+                </div>
+                <div class="inputBox">
+                    <input type="text" placeholder="Name">
+                </div>
+                <div class="inputBox">
+                    <input type="submit" value="Send">
+                </div>
+            </div>
+        </section>
+
+        <div class="copyrightText">
+            <p>Copyright 2021 PCB.Ku . All Right Reserved</p>
+        </div>
+    </div>
+
+
+
+    <script type="text/javascript">
+        window.addEventListener('scroll', function () {
+            const header = document.querySelector('header');
+            header.classList.toggle("sticky", window.scrollY > 0);
+        });
+
+
+        function toggleMenu(){
+            const menuToggle = document.querySelector('.menuToggle');
+            const navigation = document.querySelector('.navigation');
+            menuToggle.classList.toggle('active');
+            navigation.classList.toggle('active');
+        }
+    </script>
+</body>
+
+</html>
