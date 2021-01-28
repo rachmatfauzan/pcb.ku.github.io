@@ -278,7 +278,7 @@ section{
     font-weight: 600;
 }
 .contact{
-    background: url(img/bg3.jpg);
+    background: url(img/bg-footer.jpg);
     background-size: cover;
 }
 .contactForm{
@@ -299,7 +299,7 @@ section{
     width: 100%;
     margin-bottom: 20px;
 }
-.contactForm .inputBox input{
+.contactForm .inputBox input, textarea{
     width: 100%;
     border: 1px solid #555;
     padding: 10px;
